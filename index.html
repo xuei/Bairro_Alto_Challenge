@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bairro Alto Challenge</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    
+</head>
+<body>
+    <section id="intro">
+        <div>
+            <h1>Welcome to Bairro Alto Challenge </h1>
+      <h2>  <p> Help Dr Jones to cross Bairro Alto and find his friends for a beer!
+            </p>
+            <p> Controls: Spacebar for Jump.  
+                Intrusctions: Avoid annoying drunk teenagers and persevering drug dealers 
+            Heads Up: Bifanas and Imperiais can help your quest </p> </h2> </div>
+          
+        <button onclick="startGame()">Start Game</button>
+
+        <img src="images/intro.jpg" height=50% width=50%> 
+
+    </section>
+    <section id="gameOver" style="display: none;">
+            <div> <h2>Game over - Try again!</h2>
+
+                    <img src="images/gameOver.jpg" height=50% width=50%>  
+            </div>
+            <button onclick="startGame()">Start Game</button>
+        </section>
+    <section id="game" style="display: none;"> 
+        <h2> Bairro Alto Challenge</h2>   
+            <canvas id = "canvas" width="1200"    height="500" ></canvas>
+    </section>
+   
+    
+</body>
+
+<script type="text/javascript" src="background.js" ></script>
+<script type="text/javascript" src="player.js" ></script>
+<script type="text/javascript" src="obstacle.js" ></script>
+<script type="text/javascript" src="collectable.js" ></script>
+<script type="text/javascript" src="script.js" ></script>
+</html>
