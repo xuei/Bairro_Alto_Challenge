@@ -4,7 +4,7 @@ this.x= x,
 this.y= y,
 this.vx= vx,
 this.vy= vy,
-this.radius= 60,
+this.radius= 40,
 this.color = "red"
 this.speed= -1
 this.source = source,
@@ -20,10 +20,9 @@ this.img = new Image();     }
         ctx.closePath();
         ctx.fillStyle = this.color;
         ctx.restore();
-
         ctx.save();
         ctx.translate(this.x, this.y)
-       let ratio = 1.2;
+       let ratio = 2;
        ctx.drawImage(
        this.img,
        -ratio * this.radius,

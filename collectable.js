@@ -1,5 +1,5 @@
 let img4 = new Image();
-img4.src = "images/bifana3.png";
+img4.src = "images/bifana6.png";
 class collectable {
     constructor(){
 this.img4=img4,
@@ -9,7 +9,7 @@ this.vx= 0,
 this.vy= 4,
 this.radius= 60,
 this.color = "red"
-this.speed= -2.5    }
+this.speed= -3.5    }
     move (){
         this.x += this.speed;  }
 
@@ -22,7 +22,7 @@ this.speed= -2.5    }
              ctx.restore();
         ctx.save();
         ctx.translate(this.x, this.y)
-       let ratio = 1;
+       let ratio = 1.2;
        ctx.drawImage(
        this.img4,
        -ratio * this.radius,
