@@ -3,5 +3,61 @@ canvas {
   }
 
   body {
-    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    align-items: center;
+      }
+
+      .intro {     
+        text-align: center;
+    }
+
+    .introduction {     
+      text-align: center;
   }
+
+
+  .container{
+    display: flex; 
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .imagem{
+   border: 3px black;
+   height: 230px;
+   width: 100px;
+  }
+
+ 
+.midle{
+  height: 230px;
+  width: 600px;
+  
+}
+
+button{
+  align-items: center;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  background-color: #e7e7e7; color: black;
+}
+
+.imagem2{
+  text-align: center;
+}
+.endgame{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+}

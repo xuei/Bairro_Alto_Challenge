@@ -19,19 +19,19 @@ function playMusic() {
 function playDie() {
     const sfxDie = new Audio();
     sfxDie.src = "died.mp3";
-    sfxDie.volume = 0.5;
+    sfxDie.volume = 0.3;
     sfxDie.play(); }
 
 function playImperial() {
     const sfxImperial = new Audio();
     sfxImperial.src = "imperial.mp3";
-    sfxImperial.volume = 0.5;
+    sfxImperial.volume = 0.3;
     sfxImperial.play(); }
 
 function playStart() {
     const sfxStart = new Audio();
     sfxStart.src = "start.mp3";
-    sfxStart.volume = 0.5;
+    sfxStart.volume = 0.3;
     sfxStart.play(); }
 
 
