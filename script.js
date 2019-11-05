@@ -59,7 +59,7 @@ if (myGameArea.gameLoop ===true) {
 
 function updateObstacles(){
     if (myGameArea.frames % 260 === 0) {
-       myObstacles.push(new obstacle(1200, 400, 0, 5, "./images/dealer2.png")) 
+       myObstacles.push(new obstacle(1200, 500, 0, 3, "./images/dealer2.png")) 
           }
               for (i = 0; i < myObstacles.length; i++) {
          myObstacles[i].x += -1;

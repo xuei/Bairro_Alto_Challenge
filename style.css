@@ -35,10 +35,18 @@ canvas {
    width: 100px;
   }
 
+
+  .imagem3{
+    border: 3px black;
+    height: 230px;
+    width: 100px;
+   }
+ 
+
  
 .midle{
   height: 230px;
-  width: 600px;
+  width: 450px;
   
 }
 

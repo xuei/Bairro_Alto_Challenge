@@ -4,7 +4,7 @@ class collectable {
     constructor(){
 this.img4=img4,
 this.x= 1500,
-this.y= 400,
+this.y= 500,
 this.vx= 0,
 this.vy= 4,
 this.radius= 60,
