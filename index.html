@@ -10,24 +10,43 @@
     
 </head>
 <body>
+    
     <section id="intro">
-        <div>
-            <h1>Welcome to Bairro Alto Challenge </h1>
-      <h2>  <p> Help Dr Jones to cross Bairro Alto and find his friends for a beer!
-            </p>
-            <p> Controls: Spacebar for Jump.  
-                Intrusctions: Avoid annoying drunk teenagers and persevering drug dealers 
-            Heads Up: Bifanas and Imperiais can help your quest </p> </h2> </div>
-          
-        <button onclick="startGame()">Start Game</button>
+        <div class="introduction">
+                    <h1>Welcome to Bairro Alto Challenge </h1>
+            <h4>  <p> Help Dr Jones to cross Bairro Alto and find his friends for a beer!
+            </p> </h4> 
+        </div>
+        
+        <div class="container">
+     <div class ="imagem">   
+            <img src="images/player6.png"> 
+        </div>
+    
+            <div class="midle">
 
-        <img src="images/intro.jpg" height=50% width=50%> 
+            <ul>
+             <h3>Instructions </h3>
+           <h5> <li> Controls: Spacebar for Jump  </li>  
+            <li> Avoid annoying drunk teenagers and persevering drug dealers </li>
+            <li> Collect Bifanas and Imperiais to help your quest </li>
+            <li> Hit the start button and good luck - You might need it </li>  
+        </ul>
+    </h5>
+        <button onclick="startGame()">Start Game</button> 
+    </div>
 
-    </section>
+</div>
+
+<div class="imagem2">          <img src="images/intro.jpg" height=40% width=40%> </div>
+
+    
+</section>
+<div class= "endgame">
     <section id="gameOver" style="display: none;">
             <div> <h2>Game over - Try again!</h2>
 
-                    <img src="images/gameOver.jpg" height=50% width=50%>  
+                    <img src="images/gameOver.jpg" height=40% width=40%>  
             </div>
             <button onclick="startGame()">Start Game</button>
         </section>
@@ -35,8 +54,8 @@
         <h2> Bairro Alto Challenge</h2>   
             <canvas id = "canvas" width="1200"    height="500" ></canvas>
     </section>
-   
-    
+</div>
+  
 </body>
 
 <script type="text/javascript" src="background.js" ></script>
